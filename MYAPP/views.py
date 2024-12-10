@@ -18,11 +18,11 @@ def Carrera(request):
 
 def profesores(request): 
    
-    return render(request, 'MYAPP/profersores.html', {"profes":profesores})
+    return render(request, 'MYAPP/profesores.html', {"profesores":profesores})
     
 
 def estudiantes(request):
-    return render(request, 'MYAPP/estudiantes.html')
+    return render(request, 'MYAPP/estudiantes.html', {"estudiantes":estudiantes})
 
 def entregables(request):
     return render(request, "MYAPP/entregables.html")
